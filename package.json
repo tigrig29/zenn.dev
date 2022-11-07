@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "pre": "zenn preview",
+    "newa": "zenn new:article",
+    "newb": "zenn new:book"
+  },
   "dependencies": {
     "zenn-cli": "^0.1.131"
   }
